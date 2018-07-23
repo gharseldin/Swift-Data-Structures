@@ -8,5 +8,15 @@
 
 import Foundation
 
-print("Hello, World!")
+var singlyLinkedList : SinglyLinkedList<String>
+singlyLinkedList = SinglyLinkedList<String>()
+
+singlyLinkedList.addFirst(e: "name")
+print(singlyLinkedList)
+singlyLinkedList.addFirst(e: "address")
+singlyLinkedList.addFirst(e: "iiii")
+print(singlyLinkedList)
+
+
+
 
